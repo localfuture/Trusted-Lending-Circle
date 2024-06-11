@@ -14,27 +14,27 @@ have wallet during industrialisation 4.0. So if we implement such a system in bl
 autonomous machines to borrow and lend by minimizing human intervention and provide financial stability to the autonomous
 machines with are connected to the blockchain.
 Trusted Lending Circle Project Submission Template
-## Setting Up:
-# Step 1: Download the repostory using the command:
+# Setting Up:
+## Step 1: Download the repostory using the command:
 Git Clone "https://gitlab.com/KeralaBlockchainAcademy/sms-the_project_submission_template.git"
-# Step 2: Install the dependecies using the command:
+## Step 2: Install the dependecies using the command:
 npm Install
-# Step 3: Use the following command to compile smart contract:
+## Step 3: Use the following command to compile smart contract:
 cd Ethereum
 truffle compile
-# Step 4: Use one of the following commands to connect to the private or public chain:
+## Step 4: Use one of the following commands to connect to the private or public chain:
 Private chain:
 geth --identity "tlc" --networkid "5777" --datadir "data" --http --http.port "8545" --unlock "0x416B38D4E430c4f9EBc0853962544b2076B7CD30" --http.corsdomain "*" --http.api "miner,eth,net,web3,personal" --allow-insecure-unlock --nodiscover --ipcpath "~/.ethereum/geth.ipc"
 start mining using the following command, before doing any transaction:
 miner.start()
 Password: Enter Key
-# Step 5: Use the following command to deploy the smart contract to the connected chain:
+## Step 5: Use the following command to deploy the smart contract to the connected chain:
 cd Ethereum truffle migrate
-# Step 6: Run the dapp using the command
+## Step 6: Run the dapp using the command
 cd ..
 npm start
 Execution Flow:
-# Step 7: Go http://localhost:3000/, Provide the student details and click Set Student
+## Step 7: Go http://localhost:3000/, Provide the student details and click Set Student
 sign up with wallet address and login
 as foreman and create new fund
 sign up with wallet address and login
