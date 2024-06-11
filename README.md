@@ -1,4 +1,4 @@
-# lendingCircle
+# Trusted Lending Circle
 To promote financial inclusion to wide range of people, by including greater transparency, enhanced security, improved
 traceability, increased efficiency and speed of transactions, and reduced costs.
 To implement a rotating savings and credit association system using Ethereum blockchain. The basic principle is that
